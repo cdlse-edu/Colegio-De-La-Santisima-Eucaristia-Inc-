@@ -7,7 +7,7 @@ background: -moz-linear-gradient(-45deg, #FFFFFF 0%, #CBCBCB 55%, #757575 100%);
 background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #CBCBCB 55%, #757575 100%);
 background: linear-gradient(135deg, #FFFFFF 0%, #CBCBCB 55%, #757575 100%); 
 font-family: Canela Deck Web, GT America Standard Regular;
-  box-sizing: border-box;
+ 
   
 
 }
@@ -253,4 +253,5 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.43);
 .copy-popup.show {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
+
 }   
