@@ -1,0 +1,58 @@
+
+.about {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  animation: fadeIn 1.2s ease forwards;
+}
+
+.about-title {
+  font-size: clamp(36px, 5vw, 56px);
+  color: maroon;
+  margin-bottom: 20px;
+}
+
+.about-desc {
+  font-size: clamp(18px, 3vw, 22px);
+  margin-bottom: 35px;
+}
+
+.core-title,
+.promise-title {
+  color: maroon;
+  font-size: 28px;
+  margin: 30px 0 15px;
+}
+
+.core-values {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  text-align: left;
+}
+
+.core-values li {
+  background: rgba(95, 7, 7, 0.08);
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.core-values li:hover {
+  transform: scale(1.03);
+}
+
+.core-values span {
+  color: maroon;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.promise-desc {
+  font-size: clamp(17px, 3vw, 21px);
+  max-width: 700px;
+  margin: 0 auto;
+}
