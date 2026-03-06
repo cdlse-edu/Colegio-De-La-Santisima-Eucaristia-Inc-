@@ -1,5 +1,4 @@
 body{
- overflow: auto;
 background: #FFFFFF;
 background: -moz-linear-gradient(-45deg, #FFFFFF 0%, #CBCBCB 55%, #757575 100%);
 background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #CBCBCB 55%, #757575 100%);
@@ -253,5 +252,6 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.43);
     transform: translateX(-50%) translateY(0);
 
 }   
+
 
 
